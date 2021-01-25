@@ -1,11 +1,12 @@
 # Pterodactyl-Client-Panel-PHP
 
-![](https://shields.io/badge/Code-Open%20Source-brightgreen?style=flat-square&logo=github "CodeSource") ![](https://img.shields.io/github/contributors-anon/NWJ9PB/Pterodactyl-Client-Panel-PHP?label=Contributors&style=flat-square "Contributor") ![](https://img.shields.io/badge/PHP->%207.4.14-blue?style=flat-square "PHPVer") ![](https://img.shields.io/discord/787130567103348737?logo=discord&logoColor=white&style=flat-square "Discord")
+![CodeSource](https://shields.io/badge/Code-Open%20Source-brightgreen?style=flat-square&logo=github) ![Contributors](https://img.shields.io/github/contributors-anon/NWJ9PB/Pterodactyl-Client-Panel-PHP?label=Contributors&style=flat-square) ![PHPVer](https://img.shields.io/badge/PHP->%207.4.14-blue?style=flat-square) ![DiscordServer](https://img.shields.io/discord/787130567103348737?logo=discord&logoColor=white&style=flat-square)
 
-# About
+## About
+
 This panel is for game hosting providers that utilizes the [Pterodactyl Game Panel](https://github.com/pterodactyl/panel "Pterodactyl Game Panel"), This client panel uses the v1.0 API provided in [Official API Documentation](https://dashflo.net/docs/api/pterodactyl/v1/ "Official API Documentation")
 
-# How to use / Deploy
+## How to use / Deploy
 
 Requirements
 
@@ -15,5 +16,6 @@ Requirements
 
 Just Unpack the file on your *public_html* or anywhere that your webserver uses
 
-# Contact the Developers
+## Contact the Developers
+
 [ARCH Discord Server](http://discord.gg/gHrgYHatRs "ARCH Discord Server")
