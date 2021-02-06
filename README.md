@@ -8,18 +8,17 @@ This panel is for game hosting providers that utilizes the [Pterodactyl Game Pan
 But this panel can be served on different purpose,
 
 *Examples:*
- - *Mini-Economy via Discord Login*
- - *Account Selling Platform*
- - *VPS Reselling Platform*
 
+- *Mini-Economy via Discord Login*
+- *Account Selling Platform*
+- *VPS Reselling Platform*
 
-#### Coming Soon Features
- - Paypal Integration
- - Auto Update
- - Installable Web App (Progressive Website Application)
- - A Service Worker (Please Contact Us about this, :smile: )
+### Coming Soon Features
 
-
+- Paypal Integration
+- Auto Update
+- Installable Web App (Progressive Website Application)
+- A Service Worker (Please Contact Us about this, :smile: )
 
 ## How to use / Deploy
 
