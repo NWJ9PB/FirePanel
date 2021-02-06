@@ -1,6 +1,6 @@
 # FirePanel
 
-![CodeSource](https://shields.io/badge/Code-Open%20Source-brightgreen?style=flat-square&logo=github) ![Contributors](https://img.shields.io/github/contributors-anon/NWJ9PB/Pterodactyl-Client-Panel-PHP?label=Contributors&style=flat-square) ![PHPVer](https://img.shields.io/badge/PHP->%207.4.14-blue?style=flat-square) ![DiscordServer](https://img.shields.io/discord/787130567103348737?logo=discord&logoColor=white&style=flat-square)
+![CodeSource](https://shields.io/badge/Code-Open%20Source-brightgreen?style=for-the-badge&logo=github) ![Contributors](https://img.shields.io/github/contributors-anon/NWJ9PB/Pterodactyl-Client-Panel-PHP?label=Contributors&style=for-the-badge) ![PHPVer](https://img.shields.io/badge/PHP->%207.4.14-blue?style=for-the-badge) ![DiscordServer](https://img.shields.io/discord/787130567103348737?logo=discord&logoColor=white&style=for-the-badge)
 
 ## About
 
