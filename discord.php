@@ -1,3 +1,2 @@
-<?php
-require("settings/discord.php")
-?>
+<?php include(__DIR__."settings/discord.php") ?>
+
