@@ -9,7 +9,13 @@
 
 <body class="bg-default shadow-none">
     <?php require('includes/sidenav.php');?> 
+    <div class="main-content">
+    lmao
+    </div>
     
+
+<?php require("includes/script.php") ?>
+
 </body>
 
 </html>
