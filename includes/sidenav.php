@@ -19,20 +19,26 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="icons.html">
-                            <i class="ni ni-planet text-orange"></i>
-                            <span class="nav-link-text">Icons</span>
+                            <i class="fas fa-server"></i>
+                            <span class="nav-link-text">Server Management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="icons.html">
+                            <i class="fas fa-box"></i>
+                            <span class="nav-link-text">Create Server</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="map.html">
-                            <i class="ni ni-pin-3 text-primary"></i>
-                            <span class="nav-link-text">Google</span>
+                            <i class="fas fa-user-plus"></i>
+                            <span class="nav-link-text">Join For Resources</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="profile.html">
-                            <i class="ni ni-single-02 text-yellow"></i>
-                            <span class="nav-link-text">Profile</span>
+                            <i class="fas fa-ticket-alt"></i>
+                            <span class="nav-link-text">Referral</span>
                         </a>
                     </li>
                     <li class="nav-item">
