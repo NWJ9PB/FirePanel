@@ -8,8 +8,9 @@
 </head>
 
 <body class="bg-default shadow-none">
-    <?php require('includes/sidenav.php');?> 
-    <div class="main-content">
+    <?php require('includes/sidenav.php');?>
+
+    <div class="main-content" id="panel">
     lmao
     </div>
     
