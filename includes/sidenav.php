@@ -10,9 +10,14 @@
             <!-- Collapse -->
             <div class="collapse navbar-collapse" id="sidenav-collapse-main">
                 <!-- Nav items -->
+                <!-- Heading -->
+                <h6 class="navbar-heading p-0 text-muted">
+                    <span class="docs-normal">Manage</span>
+                </h6>
+
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-darker bg-translucent-orange" href="dashboard.html">
+                        <a class="nav-link active text-white bg-translucent-danger" href="dashboard.html">
                             <i class="fas fa-cogs"></i>
                             <span class="nav-link-text">Dashboard</span>
                         </a>
@@ -27,18 +32,6 @@
                         <a class="nav-link" href="icons.html">
                             <i class="fas fa-box"></i>
                             <span class="nav-link-text">Create Server</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="map.html">
-                            <i class="fas fa-user-plus"></i>
-                            <span class="nav-link-text">Join For Resources</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile.html">
-                            <i class="fas fa-ticket-alt"></i>
-                            <span class="nav-link-text">Referral</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -57,6 +50,26 @@
                         <a class="nav-link" href="register.html">
                             <i class="ni ni-circle-08 text-pink"></i>
                             <span class="nav-link-text">Register</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Divider -->
+                <hr class="my-3">
+                <!-- Heading -->
+                <h6 class="navbar-heading p-0 text-muted">
+                    <span class="docs-normal">Resources</span>
+                </h6>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="map.html">
+                            <i class="fas fa-user-plus"></i>
+                            <span class="nav-link-text">Join For Resources</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">
+                            <i class="fas fa-ticket-alt"></i>
+                            <span class="nav-link-text">Referral</span>
                         </a>
                     </li>
                 </ul>
