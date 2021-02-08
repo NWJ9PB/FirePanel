@@ -3,7 +3,7 @@
         <!-- Brand -->
         <div class="sidenav-header  align-items-center">
             <a class="navbar-brand" href="javascript:void(0)">
-                <img src="../assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+                <img src="assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
             </a>
         </div>
         <div class="navbar-inner">
@@ -12,7 +12,7 @@
                 <!-- Nav items -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="dashboard.html">
+                        <a class="nav-link active text-darker bg-translucent-orange" href="dashboard.html">
                             <i class="fas fa-cogs"></i>
                             <span class="nav-link-text">Dashboard</span>
                         </a>
@@ -59,12 +59,6 @@
                             <span class="nav-link-text">Register</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="upgrade.html">
-                            <i class="ni ni-send text-dark"></i>
-                            <span class="nav-link-text">Upgrade</span>
-                        </a>
-                    </li>
                 </ul>
                 <!-- Divider -->
                 <hr class="my-3">
@@ -104,12 +98,6 @@
                             target="_blank">
                             <i class="ni ni-chart-pie-35"></i>
                             <span class="nav-link-text">Plugins</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active active-pro" href="upgrade.html">
-                            <i class="ni ni-send text-dark"></i>
-                            <span class="nav-link-text">Upgrade to PRO</span>
                         </a>
                     </li>
                 </ul>
