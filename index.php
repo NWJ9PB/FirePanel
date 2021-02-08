@@ -30,9 +30,9 @@
                     <div class="card-body py-1">
                         <div class="row">
                             <div class="col-lg-8 d-none d-lg-block right-6 rounded-lg rounded-sm">
-                                <img src="assets/img/icons/Icon.png" width="700" height="700" class="rounded-left bg-blue">
+                                <img src="assets/img/icons/Icon.png" width="700" height="700" class="rounded-left bg-warning">
                             </div>
-                            <div class="col-lg-4 align-content-center justify-content-center bg-gradient-blue rounded rounded-sm">
+                            <div class="col-lg-4 align-content-center justify-content-center bg-gradient-warning rounded rounded-sm">
                                 <div class="my-5">
                                     <div class="text-center">
                                         <h1 class="text-white m-4"><b>FirePanel</b></h1>
