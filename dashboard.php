@@ -105,9 +105,13 @@
                                 </div>
                             </div>
                         </div>
-
-
-<?php require(__DIR__."/private/cmp/script.php") ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php require(__DIR__."/private/cmp/script.php") ?>
+    
 
 </body>
 
