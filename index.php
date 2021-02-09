@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require("includes/assets.php");?>
+    <?php require(__DIR__."/private/cmp/assets.php");?>
 
     <title>FirePanel</title>
 </head>
+
 <body class="bg-default">
+    <?php require(__DIR__."/private/cmp/navbar.php") ?>
+
     <div class="header bg-gradient-info py-3 py-lg-5 pt-lg-6">
         <div class="container">
             <div class="header-body text-center mb-7">
@@ -30,9 +33,9 @@
                     <div class="card-body py-1">
                         <div class="row">
                             <div class="col-lg-8 d-none d-lg-block right-6 rounded-lg rounded-sm">
-                                <img src="assets/img/icons/Icon.png" width="700" height="700" class="rounded-left bg-blue">
+                                <img src="assets/img/icons/Icon.png" width="700" height="700" class="rounded-left bg-warning">
                             </div>
-                            <div class="col-lg-4 align-content-center justify-content-center bg-gradient-blue rounded rounded-sm">
+                            <div class="col-lg-4 align-content-center justify-content-center bg-gradient-warning rounded rounded-sm">
                                 <div class="my-5">
                                     <div class="text-center">
                                         <h1 class="text-white m-4"><b>FirePanel</b></h1>
@@ -79,50 +82,10 @@
             </div>
         </div>
     </div>
-    <footer class="mb-3" id="footer-main">
-        <div class="container">
-            <div class="row align-items-center justify-content-xl-between">
-                <div class="col-xl-4">
-                    <div class="copyright text-center text-xl-left text-muted">
-                         
-                        <a href="#" class="font-weight-bold ml-1" target="_blank">© 2021 | FirePanel</a>
-                        <a href="#" class="font-weight-bold ml-5 text-cyan bg-dark rounded" target="_blank">&nbsp;&nbsp;<i class="fas fa-window-maximize"></i>&nbsp;Web BuildID&nbsp;&nbsp;</a>
 
-                    </div>
-                </div>
-                <div class="col-xl-8">
-                    <ul class="nav nav-footer justify-content-center justify-content-xl-end">
-                        <li class="nav-item">
-                            <a href="https://www.creative-tim.com" class="nav-link" target="_blank">FRONTEND DESIGN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" target="_blank">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://www.arch-interstellar.com/discord.php" class="nav-link" target="_blank">WEB DESIGNER</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" target="_blank"><i class="fab fa-discord"></i> DISCORD SERVER</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php require(__DIR__."/private/cmp/footer.php") ?>
 
-    <!-- Core -->
-    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/js-cookie/js.cookie.js"></script>
-    <script src="assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
-    <script src="assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.js"></script>
-    <!-- Optional JS -->
-    <script src="assets/vendor/chart.js/dist/Chart.min.js"></script>
-    <script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
-    <!-- Argon JS -->
-    <script src="assets/js/argon.js?v=1.2.0"></script>
-
-
+    <?php require(__DIR__."/private/cmp/scripts.php") ?>
 
 </body>
 

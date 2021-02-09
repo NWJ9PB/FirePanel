@@ -5,8 +5,8 @@
 ## About
 
 This panel is for game hosting providers that utilizes the [Pterodactyl Game Panel](https://github.com/pterodactyl/panel "Pterodactyl Game Panel"), This client panel uses the v1.0 API provided in [Official API Documentation](https://dashflo.net/docs/api/pterodactyl/v1/ "Official API Documentation")
-But this panel can be served on different purpose,
 
+But this panel can be served on different purpose but needed a complete redesign,
 *Examples:*
 
 - *Mini-Economy via Discord Login*
