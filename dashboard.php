@@ -106,6 +106,44 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-12 mt-3">
+                            <div class="card shadow-none mb-4">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-gradient-info">
+                                    <h4 class="m-0 text-light">Servers</h4>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table align-items-center table-flush">
+                                        <thead class="bg-gradient-info">
+                                            <tr>
+                                                <th scope="col">Server Name</th>
+                                                <th scope="col">Memory</th>
+                                                <th scope="col">Disk</th>
+                                                <th scope="col">CPU</th>
+                                                <th scope="col">Extra Ports</th>
+                                                <th scope="col">Database</th>
+                                                <th scope="col">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="thead-dark">
+                                            <tr>
+                                                <td class="">Bungee</td>
+                                                <td>350</td>
+                                                <td>5000</td>
+                                                <td>2</td>
+                                                <td>1</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <a href="deleteserver?id=idhere" class="btn btn-danger btn-sm" role="button">Delete</a>
+                                                    <button type="button" class="btn btn-info btn-sm">Change Hardware</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
