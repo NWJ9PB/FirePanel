@@ -191,7 +191,7 @@ function sidebarColor(a) {
   }
 
   var sidebar = document.querySelector('.sidenav');
-  sidebar.setAttribute("data-color", color);
+  sidebar.setAttribute("data-color", "bg-cark");
 
   var sidenavCard = document.querySelector('#sidenavCard');
   let sidenavCardClasses = ['card', 'card-background', 'shadow-none', 'card-background-mask-' + color];
@@ -321,7 +321,7 @@ function sidebarType(a) {
 
   var sidebar = document.querySelector('.sidenav');
   sidebar.classList.remove('bg-transparent');
-  sidebar.classList.remove('bg-white');
+  sidebar.classList.remove('bg-dark');
 
   sidebar.classList.add(color);
 }
@@ -346,13 +346,13 @@ function toggleSidenav() {
   if (body.classList.contains(className)) {
     body.classList.remove(className);
     setTimeout(function() {
-      sidenav.classList.remove('bg-white');
+      sidenav.classList.remove('bg-dark');
     }, 100);
     sidenav.classList.remove('bg-transparent');
 
   } else {
     body.classList.add(className);
-    sidenav.classList.add('bg-white');
+    sidenav.classList.add('bg-dark');
     sidenav.classList.remove('bg-transparent');
     iconSidenav.classList.remove('d-none');
   }
@@ -367,12 +367,12 @@ window.addEventListener("resize", navbarColorOnResize);
 function navbarColorOnResize() {
   if (window.innerWidth > 1200) {
     if (referenceButtons.classList.contains('active') && referenceButtons.getAttribute('data-class') === 'bg-transparent') {
-      sidenav.classList.remove('bg-white');
+      sidenav.classList.remove('bg-dark');
     } else {
-      sidenav.classList.add('bg-white');
+      sidenav.classList.add('bg-dark');
     }
   } else {
-    sidenav.classList.add('bg-white');
+    sidenav.classList.add('bg-dark');
     sidenav.classList.remove('bg-transparent');
   }
 }
