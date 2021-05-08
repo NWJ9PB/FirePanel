@@ -1,9 +1,8 @@
-<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-2 fixed-left ms-2 bg-dark rounded" id="sidenav-main">
+<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 fixed-left bg-dark-sidenav" id="sidenav-main">
         <div class="sidenav-header">
             <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute right-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-            <a class="navbar-brand m-0" href="dashboard.html">
-                <img class="navbar-brand-img h-100 w-15" src="assets/img/logo-ct.png" >
-                <span class="ms-1 font-weight-bold text-white">Hosting</span>
+            <a class="navbar-brand m-0 align-content-center" href="dashboard.html">
+                <span class="h3 ms-1 font-weight-bold text-white">FirePanel</span>
             </a>
         </div>
         <hr class="horizontal dark mt-0">
