@@ -95,14 +95,14 @@
         </div>
         <div class="sidenav-footer mx-3 mt-3 pt-3">
             <div class="card card-background shadow-none card-background-mask-info" id="sidenavCard">
-                <div class="full-background" style="background-image: url(https://c0.wallpaperflare.com/preview/600/243/618/javascript-vscode-editor-code.jpg)"></div>
+                <div class="full-background" style="background-image: url(https://images.unsplash.com/flagged/photo-1579274216947-86eaa4b00475?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2VydmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)"></div>
                 <div class="card-body text-left p-3 w-100">
                     <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
                         <i class="ni ni-diamond text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
                     </div>
                     <h6 class="text-white up mb-0">Want powerful servers?</h6>
                     <p class="text-xs font-weight-bold">Check our services here</p>
-                    <a href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Paid Hosting</a>
+                    <a href="paidhosting.php" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Paid Hosting</a>
                 </div>
             </div>
         </div>
