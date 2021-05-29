@@ -1,7 +1,7 @@
 <?php
 require('settings/initial.php');
 require('include/copyright.php');
-
+$pageid = 1;
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ require('include/copyright.php');
         <?php require('include/topbar.php');?>
 
         <div class="container-fluid py-4">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
                     <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
                         <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)"></div>
@@ -38,7 +38,7 @@ require('include/copyright.php');
                                     </div>
                                 </div>
                             </div>
-                            <span class="badge badge-pill bg-warning"><i class="fas fa-money-bill ml-1 mr-2"></i> Cash In</span>
+                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-money-bill ml-1 mr-2"></i> Cash In</span>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ require('include/copyright.php');
                                     </div>
                                 </div>
                             </div>
-                            <span class="badge badge-pill bg-warning"><i class="fas fa-book ml-1 mr-2"></i> Check Plans</span>
+                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-book ml-1 mr-2"></i> Check Plans</span>
                         </div>
                     </div>
                 </div>
@@ -101,12 +101,12 @@ require('include/copyright.php');
                                     </div>
                                 </div>
                             </div>
-                            <span class="badge badge-pill bg-warning"><i class="fas fa-coins ml-1 mr-2"></i> Earn</span>
+                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-coins ml-1 mr-2"></i> Earn</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row mt-3">
+            <div class="row mb-3">
                 <div class="col-xl-6 col-md-12 col-sm-12 mb-4">
                     <div class="card bg-gradient-secondary">
                         <div class="table-responsive">
@@ -199,14 +199,14 @@ require('include/copyright.php');
                     </div>
                 </div>
             </div>
-            <div class="row mt-3">
+            <div class="row mb-3">
                 <div class="col-xl-12">
                     <div class="card bg-gray">
                         <div class="card-body p-3">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="d-flex flex-column h-100">
-                                        <p class="mb-2 text-bold text-white">Advertisements</p>
+                                        <p class="mb-2 text-bold text-danger"><i class="fas fa-ad"></i> Advertisements from our sponsors</p>
                                         <!--<img src="https://cdn.discordapp.com/attachments/839600786362204190/846343132584476672/Gif_leggera_sfondo.gif?size=512" alt="">-->
                                         <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-2" href="">
                                             Read more here
@@ -219,55 +219,6 @@ require('include/copyright.php');
                     </div>
                 </div>
             </div>
-            <footer class="footer pt-3">
-                <div class="container-fluid">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-lg-6 mb-lg-0 mb-4">
-                    <div class="copyright text-center text-sm text-muted text-lg-left">
-                        © <script>
-                        document.write(new Date().getFullYear())
-                        </script>
-                        <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
-                        | Edited by 
-                        <a href="https://github.com/NWJ9PB" class="font-weight-bold text-white" target="_blank"><span style="color: yellow;">NWJ9PB / InterStellar#3423</span> <span class="text-muted">for</span> <span style="color: orange;">NExxT Development</span></a>
-                    </div>
-                    </div>
-                    <div class="col-lg-6">
-                    <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                        <li class="nav-item">
-                        <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Service Status</a>
-                        </li>
-                        <li class="nav-item">
-                        <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                        <a href="http://blog.creative-tim.com" class="nav-link text-muted" target="_blank">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                        <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                </div>
-            </footer>
+            <?php require('include/footer.php');?>
         </div>
-        <script src="assets/js/core/popper.min.js"></script>
-        <script src="assets/js/core/bootstrap.min.js"></script>
-        <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
-        <script src="assets/js/soft-ui-dashboard.min.js?v=1.0.1"></script>
-        <script>
-            var win = navigator.platform.indexOf('Win') > -1;
-            if (win && document.querySelector('#sidenav-scrollbar')) {
-            var options = {
-                damping: '0.5'
-            }
-            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-            }
-        </script>
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <script src="assets/vendor/smooth-scrollbar-8.6.2/smooth-scrollbar.js"></script>
-
-
-        
-
+        <?php require('include/scripts.php');?>
