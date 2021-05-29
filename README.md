@@ -1,10 +1,6 @@
-#Note
-
-This project is recoding on Bootstrap 5 by creative tim, please be patient as it got working Discord oAuth2 
-
-# FirePanel
-
 ![CodeSource](https://shields.io/badge/Code-Open%20Source-brightgreen?style=for-the-badge&logo=github) ![Contributors](https://img.shields.io/github/contributors-anon/NWJ9PB/Pterodactyl-Client-Panel-PHP?label=Contributors&style=for-the-badge) ![PHPVer](https://img.shields.io/badge/PHP->%207.4.14-blue?style=for-the-badge) ![DiscordServer](https://img.shields.io/discord/787130567103348737?logo=discord&logoColor=white&style=for-the-badge)
+
+# THIS IS STILL A WORK IN PROGRESS
 
 ## About
 
@@ -37,3 +33,4 @@ Just Unpack the file on your *public_html* or anywhere that your webserver uses
 ## Contact the Developers
 
 [ARCH Discord Server](http://discord.gg/gHrgYHatRs "ARCH Discord Server")
+

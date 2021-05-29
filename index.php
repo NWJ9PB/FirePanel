@@ -1,92 +1,224 @@
+<?php
+require('settings/initial.php');
+require('include/copyright.php');
+$pageid = 1;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <?php require(__DIR__."/private/cmp/assets.php");?>
 
-    <title>FirePanel</title>
+<head>
+    <title>Overview</title>
+    <?php require('include/header.php');?>
+
 </head>
 
-<body class="bg-default">
-    <?php require(__DIR__."/private/cmp/navbar.php") ?>
+<body class="g-sidenav-show bg-dark">
+    <?php require('include/sidenav.php');?>
 
-    <div class="header bg-gradient-info py-3 py-lg-5 pt-lg-6">
-        <div class="container">
-            <div class="header-body text-center mb-7">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5 col-lg-6 col-md-8 px-5">
-                        <h1 class="text-white">Welcome!</h1>
-                        <p class="text-lead text-white"></p>
+    <main class="main-content mt-1 border-radius-lg">
+        <?php require('include/topbar.php');?>
+
+        <div class="container-fluid py-4">
+            <div class="row mb-3">
+                <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                        <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)"></div>
+                        <div class="card-body text-left p-3 w-100">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="numbers">
+                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Remaining Balance</p>
+                                        <h5 class="font-weight-bolder mb-0 text-white">$12.07</h5>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end">
+                                    <div class="icon icon-shape icon-sm bg-gradient-danger shadow text-center border-radius-md">
+                                        <i class="fas fa-book mt-n12" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-money-bill ml-1 mr-2"></i> Cash In</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                        <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1527219525722-f9767a7f2884?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80)"></div>
+                        <div class="card-body text-left p-3 w-100">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="numbers">
+                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Current Plan</p>
+                                        <h5 class="font-weight-bolder mb-0 text-white">Premium</h5>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end">
+                                    <div class="icon icon-shape icon-sm bg-gradient-danger shadow text-center border-radius-md">
+                                        <i class="fas fa-book mt-n12" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-book ml-1 mr-2"></i> Check Plans</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                        <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)"></div>
+                        <div class="card-body text-left p-3 w-100">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="numbers">
+                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Server Slot Left</p>
+                                        <h5 class="font-weight-bolder mb-0 text-white">2 Slots</h5>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end">
+                                    <div class="icon icon-shape icon-sm bg-gradient-danger shadow text-center border-radius-md">
+                                        <i class="fas fa-money-bill mt-n12" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-server ml-1 mr-2"></i> Server List</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                        <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1512075135822-67cdd9dd7314?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80)"></div>
+                        <div class="card-body text-left p-3 w-100">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="numbers">
+                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">MiniCoins</p>
+                                        <h5 class="font-weight-bolder mb-0 text-white">324</h5>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end">
+                                    <div class="icon icon-shape icon-sm bg-gradient-danger shadow text-center border-radius-md">
+                                        <i class="fas fa-money-bill mt-n12" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-coins ml-1 mr-2"></i> Earn</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="separator separator-bottom separator-skew zindex-100">
-            <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
-            </svg>
-        </div>
-    </div>  
-    <div class="container mt--8 pb-5 bg-transparent">
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-12 col-md-10">
-                <div class="row mt-4 mb-1">
-                    <div class="card-body py-1">
-                        <div class="row">
-                            <div class="col-lg-8 d-none d-lg-block right-6 rounded-lg rounded-sm">
-                                <img src="assets/img/icons/Icon.png" width="700" height="700" class="rounded-left bg-warning">
-                            </div>
-                            <div class="col-lg-4 align-content-center justify-content-center bg-gradient-warning rounded rounded-sm">
-                                <div class="my-5">
-                                    <div class="text-center">
-                                        <h1 class="text-white m-4"><b>FirePanel</b></h1>
+            <div class="row mb-3">
+                <div class="col-xl-6 col-md-12 col-sm-12 mb-4">
+                    <div class="card bg-gradient-secondary">
+                        <div class="table-responsive">
+                            <table class="table align-items-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Server Name</th>
+                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Node</th>
+                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">CPU</th>
+                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Memory</th>
+                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Disk</th>
+                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Port</th>
+                                        <th class="text-white"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h6 class="text-xs text-white font-weight-bold mb-0 text-center">SMP</h6>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">NA-1</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">70%</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">1000 MB</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">4000 MB</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">2</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <a href="" class="badge bg-secondary text-white font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            Edit
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class="text-xs text-white font-weight-bold mb-0 text-center">Skyblock</h6>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">NA-1</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">70%</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">1000 MB</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">4000 MB</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">2</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <a href="" class="badge bg-secondary text-white font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            Edit
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12 col-sm-12 mb-4">
+                    <div class="card bg-gradient-dark">
+                        <div class="card-body p-3">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex flex-column h-100">
+                                        <p class="mb-1 pt-2 text-bold text-white">Announcements</p>
+                                        <h5 class="font-weight-bolder text-white">Soft UI Dashboard</h5>
+                                        <p class="mb-5 text-white">From colors, cards, typography to complex elements, you will have a great experience at using this!</p>
+                                        <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="">
+                                            Read More at Discord Server
+                                            <i class="fab fa-discord fa-lg ms-1" aria-hidden="true"></i>
+                                            <i class="fas fa-arrow-right fa-lg ms-1" aria-hidden="true"></i>
+                                        </a>
                                     </div>
-                                    <h6 class="text-center text-info bg-translucent-default rounded">Sign in with</h6>
-                                    <a href="settings/discord.php" class="btn bg-default text-white btn-block mb-2">
-                                        <i class="fab fa-discord fa-fw"></i> Discord
-                                    </a>
-                                    <a href="settings/discord.php" class="btn bg-default text-white btn-block mb-4">
-                                        <i class="fab fa-github fa-fw"></i> GitHub <!-- (If you are a complete asshole)-->
-                                    </a>
-                                    <hr class="bg-white">
-                                    <h6 class="text-center text-info bg-translucent-default rounded">Or Manual Credentials</h6>
-                                    <form role="form">
-                                        <div class="form-group mb-3">
-                                            <div class="input-group input-group-merge input-group-alternative">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text"><i class="far fa-user-circle"></i></span>
-                                                </div>
-                                                <input class="form-control" placeholder="Email" type="email">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group input-group-merge input-group-alternative">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text"><i class="fas fa-lock-open"></i></span>
-                                                </div>
-                                                <input class="form-control" placeholder="Password" type="password">
-                                            </div>
-                                        </div>
-                                        <div class="text-center">
-                                            <button type="button" class="btn btn-default shadow-none m-4">Log in</button>
-                                        </div>
-                                        <div class="card card-body bg-gradient-default border-success">
-                                            <h6 class="text-center text-red">BY SIGNING IN, YOU AGREE TO THE TERMS AND CONDITIONS</h6>
-                                        </div>
-                                        
-                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row mb-3">
+                <div class="col-xl-12">
+                    <div class="card bg-gray">
+                        <div class="card-body p-3">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex flex-column h-100">
+                                        <p class="mb-2 text-bold text-danger"><i class="fas fa-ad"></i> Advertisements from our sponsors</p>
+                                        <!--<img src="https://cdn.discordapp.com/attachments/839600786362204190/846343132584476672/Gif_leggera_sfondo.gif?size=512" alt="">-->
+                                        <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-2" href="">
+                                            Read more here
+                                            <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php require('include/footer.php');?>
         </div>
-    </div>
-
-    <?php require(__DIR__."/private/cmp/footer.php") ?>
-
-    <?php require(__DIR__."/private/cmp/scripts.php") ?>
-
-</body>
-
-</html>
+        <?php require('include/scripts.php');?>
