@@ -1,4 +1,4 @@
-<nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-sm" id="navbarBlur" navbar-scroll="true">
+<nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none rounded-3" id="navbarBlur" navbar-scroll="true">
             <div class="container-fluid py-1 px-1">
                 <div>
                     <span class="text-success text-bold border border-2 border-radius-lg border-success rounded p-2 my-2">SUCCESS: SERVER CREATED SUCCESSFULLY</span>
@@ -23,10 +23,10 @@
                         </li>
                         
                         <li class="nav-item dropdown px-3 d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownAnnounceButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa fa-cogs cursor-pointer"></i>
+                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-cogs"></i>
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4 bg-gradient-dark" aria-labelledby="dropdownAnnounceButton">
+                            <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4 bg-gradient-dark" aria-labelledby="dropdownMenuButton">
                                 <li class="">
                                     <a class="dropdown-item border-radius-md">
                                         <div class="d-flex py-1">
