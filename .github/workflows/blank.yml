@@ -1,0 +1,23 @@
+name: Write commit info
+
+on:
+  push:
+    paths:
+      - 'config.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Write JSON file
+        run: |
+            cd .github/workflows
+            node .
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update commit info
+          commit_user_name: williamd5
+          commit_user_email: willduncannn@gmail.com
