@@ -3,7 +3,7 @@ name: Write commit info
 on:
   push:
     paths:
-      - 'config.json'
+      - '*'
 
 jobs:
   build:
