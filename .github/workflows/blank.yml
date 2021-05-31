@@ -1,9 +1,6 @@
 name: Write commit info
 
-on:
-  push:
-    paths:
-      - '*'
+on: [push]
 
 jobs:
   build:
