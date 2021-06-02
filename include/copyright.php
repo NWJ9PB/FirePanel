@@ -1,7 +1,8 @@
 <!--
     =========================================================
     * Soft UI Dashboard  - v1.0.1
-    * FirePanel FrontEnd - v0.1.0
+    * FirePanel FrontEnd - <?php echo($commitdata->commit)?>
+
     * FirePanel BackEnd  - v0.1.0
     * FirePanel Package  - Basic-OpenSource
     =========================================================
@@ -12,6 +13,8 @@
 
     * Coded by Creative Tim
     * Modified by NWJ9PB for FirePanel
+    * https://github.com/NExxT-Development/FirePanel
+    * https://github.com/NWJ9PB/FirePanel
 
     =========================================================
 
