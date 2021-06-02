@@ -6,19 +6,18 @@
 
 This panel is for game hosting providers that utilizes the [Pterodactyl Game Panel](https://github.com/pterodactyl/panel "Pterodactyl Game Panel"), This client panel uses the v1.0 API provided in [Official API Documentation](https://dashflo.net/docs/api/pterodactyl/v1/ "Official API Documentation")
 
-But this panel can be served on different purpose but needed a complete redesign,
+But this panel can be served on different purpose but needed a complete recode,
 *Examples:*
 
 - *Mini-Economy via Discord Login*
 - *Account Selling Platform*
 - *VPS Reselling Platform*
 
-### Coming Soon Features
+### Features *Coming Soon:tm:*
 
 - Paypal Integration
 - Auto Update
-- Installable Web App (Progressive Website Application)
-- A Service Worker (Please Contact Us about this, :smile: )
+- ElectronJS App *(https://github.com/NExxT-Development/FirePanel-ElectronJS)*
 
 ## How to use / Deploy
 
@@ -29,6 +28,8 @@ Requirements
 - **Database** `Built on MariaDB, You can recode if you uses other DB Types`
 
 Just Unpack the file on your *public_html* or anywhere that your webserver uses
+
+Go to `settings/config.php` to configure the initial settings for your needs
 
 ## Contact the Developers
 
