@@ -9,7 +9,7 @@
         <div class="" id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active bg-gradient-faded-dark-vertical" href="index.php">
+                    <a class="nav-link <?php if($pageid == 1){echo("active");};?>" href="index.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -20,7 +20,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">
+                    <a class="nav-link <?php if($pageid == 2){echo("active");};?>" href="server.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -34,7 +34,7 @@
                     <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-6">Account</h6>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">
+                    <a class="nav-link" href="myplan.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -45,7 +45,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">
+                    <a class="nav-link" href="profile.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -56,7 +56,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">
+                    <a class="nav-link" href="support.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -70,7 +70,7 @@
                     <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-6">Service Status</h6>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">
+                    <a class="nav-link" href="status/pterodactyl.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -81,7 +81,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">
+                    <a class="nav-link" href="status/webserver.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -103,6 +103,17 @@
                     <h6 class="text-white up mb-0">Want powerful servers?</h6>
                     <p class="text-xs font-weight-bold">Check our services here</p>
                     <a href="paidhosting.php" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Paid Hosting</a>
+                </div>
+            </div>
+        </div>
+        <div class="sidenav-footer mx-3 mt-3 pt-3 mb-5">
+            <div class="card card-background shadow-none card-background-mask-info" id="sidenavCard">
+                <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)"></div>
+                <div class="card-body text-left p-3 w-100">
+                    <?php
+                        echo('<h6 class="text-white up mb-0">CommitID: ' . $commitdata->commit . '</h6>');
+                        echo('<p class="text-xs font-weight-bold">Date: <br/>' . $commitdata->date . '</p>');
+                    ?>
                 </div>
             </div>
         </div>
