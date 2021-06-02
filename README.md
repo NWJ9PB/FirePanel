@@ -17,8 +17,7 @@ But this panel can be served on different purpose but needed a complete recode,
 
 - Paypal Integration
 - Auto Update
-- Installable Web App (Progressive Website Application)
-- A Service Worker (Please Contact Us about this, :smile: )
+- ElectronJS App *(https://github.com/NExxT-Development/FirePanel-ElectronJS)*
 
 ## How to use / Deploy
 
@@ -29,6 +28,8 @@ Requirements
 - **Database** `Built on MariaDB, You can recode if you uses other DB Types`
 
 Just Unpack the file on your *public_html* or anywhere that your webserver uses
+
+Go to `settings/config.php` to configure the initial settings for your needs
 
 ## Contact the Developers
 
