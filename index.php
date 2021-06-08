@@ -22,7 +22,7 @@ $pageid = 1;
         <div class="container-fluid py-4">
             <div class="row mb-3">
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
-                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                    <div class="card card-background shadow-none card-background-mask-info bg-info" id="sidenavCard">
                         <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)"></div>
                         <div class="card-body text-left p-3 w-100">
                             <div class="row">
@@ -43,7 +43,7 @@ $pageid = 1;
                     </div>
                 </div>
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
-                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                    <div class="card card-background shadow-none card-background-mask-info bg-info" id="sidenavCard">
                         <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1527219525722-f9767a7f2884?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80)"></div>
                         <div class="card-body text-left p-3 w-100">
                             <div class="row">
@@ -64,7 +64,7 @@ $pageid = 1;
                     </div>
                 </div>
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
-                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                    <div class="card card-background shadow-none card-background-mask-info bg-info" id="sidenavCard">
                         <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)"></div>
                         <div class="card-body text-left p-3 w-100">
                             <div class="row">
@@ -85,7 +85,7 @@ $pageid = 1;
                     </div>
                 </div>
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
-                    <div class="card card-background shadow-none card-background-mask-info border border-info" id="sidenavCard">
+                    <div class="card card-background shadow-none card-background-mask-info bg-info" id="sidenavCard">
                         <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1512075135822-67cdd9dd7314?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80)"></div>
                         <div class="card-body text-left p-3 w-100">
                             <div class="row">

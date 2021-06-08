@@ -4,8 +4,8 @@
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
 // $soft-background-color: #fbfbfb !default;
-$soft-background-color: #ffffff !default; // Testing
-$font-color:            #67748e !default;
+$soft-background-color: #15235a !default; // Testing
+$font-color:            #8191af !default;
 $h-color:               #252f40 !default;
 
 // Color system
@@ -65,12 +65,12 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary:       #cb0c9f !default;
-$secondary:     #8392AB !default;
-$info:          #17c1e8 !default;
-$success:       #82d616 !default;
-$warning:       #f53939 !default;
-$danger:        #ea0606 !default;
+$primary:       #0467e8 !default;
+$secondary:     #617597 !default;
+$info:          #00bee9 !default;
+$success:       #01cc23 !default;
+$warning:       #ff6600 !default;
+$danger:        #e20000 !default;
 $light:         $gray-200 !default;
 $dark:          $h-color !default;
 
@@ -90,28 +90,28 @@ $theme-colors: (
 
 
 // Gradient colors
-$primary-gradient:            #7928CA !default;
-$primary-gradient-state:      #FF0080 !default;
+$primary-gradient:            #0467e8 !default;
+$primary-gradient-state:      #00459e !default;
 
-$secondary-gradient:          #627594 !default;
-$secondary-gradient-state:    #A8B8D8 !default;
+$secondary-gradient:          #617597 !default;
+$secondary-gradient-state:    #434f64 !default;
 
-$info-gradient:               #2152ff !default;
-$info-gradient-state:         #21d4fd !default;
+$info-gradient:               #00bee9 !default;
+$info-gradient-state:         #007f9b !default;
 
-$success-gradient:            #17ad37 !default;
-$success-gradient-state:      #98ec2d !default;
+$success-gradient:            #01cc23 !default;
+$success-gradient-state:      #008f18 !default;
 
-$danger-gradient:             #ea0606 !default;
-$danger-gradient-state:       #ff667c !default;
+$danger-gradient:             #e20000 !default;
+$danger-gradient-state:       #f07373 !default;
 
-$warning-gradient:            #f53939 !default;
-$warning-gradient-state:      #fbcf33 !default;
+$warning-gradient:            #ff6600 !default;
+$warning-gradient-state:      #ee8640 !default;
 
 $dark-gradient:               #141727 !default;
-$dark-gradient-state:         #3A416F !default;
+$dark-gradient-state:         #303976 !default;
 
-$light-gradient:              #CED4DA !default;
+$light-gradient:              #b1b5ba !default;
 $light-gradient-state:        #EBEFF4 !default;
 
 // Gradient Colors map
@@ -544,9 +544,9 @@ $text-gradient-bg-clip:       text !default;
 $text-gradient-text-fill:     transparent !default;
 $text-gradient-position:      relative !default;
 $text-gradient-zindex:        1 !default;
-$text-gradient-bg-primary:    linear-gradient(310deg, #7928CA, #FF0080) !default;
-$text-gradient-bg-info:       linear-gradient(310deg, #2152FF, #21D4FD) !default;
-$text-gradient-bg-success:    linear-gradient(310deg, #17AD37, #C1E823) !default;
+$text-gradient-bg-primary:    linear-gradient(310deg, #0467e8, #1f718a) !default;
+$text-gradient-bg-info:       linear-gradient(310deg, #00bee9, #21fdcd) !default;
+$text-gradient-bg-success:    linear-gradient(310deg, #01cc23, #C1E823) !default;
 $text-gradient-bg-warning:    linear-gradient(310deg, #F53939, #FBCF33) !default;
 $text-gradient-bg-danger:     linear-gradient(310deg, #D60808, #FF6690) !default;
 $text-gradient-bg-dark:     linear-gradient(310deg, #141727, #3A416F) !default;

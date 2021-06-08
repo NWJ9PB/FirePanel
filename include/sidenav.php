@@ -107,12 +107,11 @@
             </div>
         </div>
         <div class="sidenav-footer mx-3 mt-3 pt-3 mb-5">
-            <div class="card card-background shadow-none card-background-mask-info" id="sidenavCard">
+            <div class="card card-background shadow-none card-background-mask-dark bg-dark" id="sidenavCard">
                 <div class="full-background" style="background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)"></div>
                 <div class="card-body text-left p-3 w-100">
                     <?php
-                        echo('<h6 class="text-white up mb-0">CommitID: ' . $commitdata->commit . '</h6>');
-                        echo('<p class="text-xs font-weight-bold">Date: <br/>' . $commitdata->date . '</p>');
+                        echo('<code class="text-secondary">' . 'Commit ID: ' . $commitdata->commit . '<br/>Commit Contributor:<br/>' . $commitdata->author . '<hr/>' . 'Commit Date: <br/>' . $commitdata->date . '<hr/>' . $commitdata->subject . '</code>');
                     ?>
                 </div>
             </div>

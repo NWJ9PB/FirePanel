@@ -1,0 +1,3 @@
+#! IGNORE SCSS AS IT IS CREATES SMALLS FILES, RESULTING TO SLOW GIT UPLOAD
+assets/scss/
+assets/vendor/fontawesome/scss 
