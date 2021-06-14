@@ -38,7 +38,7 @@ $pageid = 1;
                                     </div>
                                 </div>
                             </div>
-                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-money-bill ml-1 mr-2"></i> Cash In</span>
+                            <a class="btn badge badge-pill bg-gradient-success mb-n3"><i class="fas fa-money-bill ml-1 mr-2"></i> Cash In</a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ $pageid = 1;
                                     </div>
                                 </div>
                             </div>
-                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-book ml-1 mr-2"></i> Check Plans</span>
+                            <a class="btn badge badge-pill bg-gradient-success mb-n3"><i class="fas fa-book ml-1 mr-2"></i> Check Plans</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ $pageid = 1;
                                     </div>
                                 </div>
                             </div>
-                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-server ml-1 mr-2"></i> Server List</span>
+                            <a class="btn badge badge-pill bg-gradient-success mb-n3"><i class="fas fa-server ml-1 mr-2"></i> Server List</a>
                         </div>
                     </div>
                 </div>
@@ -97,11 +97,11 @@ $pageid = 1;
                                 </div>
                                 <div class="col-3 text-end">
                                     <div class="icon icon-shape icon-sm bg-gradient-danger shadow text-center border-radius-md">
-                                        <i class="fas fa-money-bill mt-n12" aria-hidden="true"></i>
+                                        <i class="fas fa-coins mt-n12" aria-hidden="true"></i>
                                     </div>
                                 </div>
                             </div>
-                            <span class="badge badge-pill bg-gradient-success"><i class="fas fa-coins ml-1 mr-2"></i> Earn</span>
+                            <a class="btn badge badge-pill bg-gradient-success mb-n3"><i class="fas fa-coins ml-1 mr-2"></i> Earn</a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,6 @@ $pageid = 1;
                                         <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Memory</th>
                                         <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Disk</th>
                                         <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Port</th>
-                                        <th class="text-white"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -142,11 +141,6 @@ $pageid = 1;
                                         <td>
                                             <p class="text-xs text-white font-weight-bold mb-0 text-center">2</p>
                                         </td>
-                                        <td class="align-middle">
-                                            <a href="" class="badge bg-secondary text-white font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                                            Edit
-                                            </a>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -167,11 +161,6 @@ $pageid = 1;
                                         <td>
                                             <p class="text-xs text-white font-weight-bold mb-0 text-center">2</p>
                                         </td>
-                                        <td class="align-middle">
-                                            <a href="" class="badge bg-secondary text-white font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                                            Edit
-                                            </a>
-                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -185,8 +174,8 @@ $pageid = 1;
                                 <div class="col-12">
                                     <div class="d-flex flex-column h-100">
                                         <p class="mb-1 pt-2 text-bold text-white">Announcements</p>
-                                        <h5 class="font-weight-bolder text-white">Soft UI Dashboard</h5>
-                                        <p class="mb-5 text-white">From colors, cards, typography to complex elements, you will have a great experience at using this!</p>
+                                        <h5 class="font-weight-bolder text-white">FirePanel Dashboard</h5>
+                                        <p class="mb-5 text-white">Please be adviced that <b class="bg-gradient-faded-dark rounded"><code class="m-1">GS-SGP-01</code></b>, <b class="bg-gradient-faded-dark rounded"><code class="m-1">WING-SGP-01</code></b> going for scheduled maintanance today</p>
                                         <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="">
                                             Read More at Discord Server
                                             <i class="fab fa-discord fa-lg ms-1" aria-hidden="true"></i>
