@@ -1,7 +1,10 @@
 <?php
 require('settings/initial.php');
 require('include/copyright.php');
+//---- Page Settings ----//
 $pageid = 1;
+$slink = FALSE;
+//-----------------------//
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +22,7 @@ $pageid = 1;
     <main class="main-content mt-1 border-radius-lg">
         <?php require('include/topbar.php');?>
 
-        <div class="container-fluid py-4">
+        <div class="container py-4">
             <div class="row mb-3">
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
                     <div class="card card-background shadow-none card-background-mask-info bg-info" id="sidenavCard">
@@ -106,70 +109,38 @@ $pageid = 1;
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col-xl-6 col-md-12 col-sm-12 mb-4">
-                    <div class="card bg-gradient-secondary">
-                        <div class="table-responsive">
-                            <table class="table align-items-center mb-0">
-                                <thead>
-                                    <tr>
-                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Server Name</th>
-                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Node</th>
-                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">CPU</th>
-                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Memory</th>
-                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Disk</th>
-                                        <th class="text-uppercase text-white text-xxs text-center font-weight-bolder">Port</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <h6 class="text-xs text-white font-weight-bold mb-0 text-center">SMP</h6>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">NA-1</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">70%</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">1000 MB</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">4000 MB</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">2</p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h6 class="text-xs text-white font-weight-bold mb-0 text-center">Skyblock</h6>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">NA-1</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">70%</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">1000 MB</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">4000 MB</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs text-white font-weight-bold mb-0 text-center">2</p>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+            <div class="row mb-3 py-3 align-content-center">
+                <div class="col-xl-4 col-md-12 col-sm-12 mb-4">
+                    <div class="card bg-info shadow-xl">
+                        <div class="overflow-hidden position-relative border-radius-xl" style="background-image: url('assets/img/curved-images/curved14.jpg');">
+                            <span class="mask bg-gradient-dark"></span>
+                            <div class="card-body position-relative z-index-1 p-3">
+                                <div class="row">
+                                    <i class="fas fa-wifi text-white p-2"></i>
+                                    <h5 class="text-white mt-4 mb-5 pb-2">4562&nbsp;&nbsp;&nbsp;1122&nbsp;&nbsp;&nbsp;4594&nbsp;&nbsp;&nbsp;7852</h5>
+                                    <div class="d-flex">
+                                        <div class="d-flex">
+                                            <div class="me-4">
+                                                <p class="text-white text-sm opacity-8 mb-0">Card Holder</p>
+                                                <h6 class="text-white mb-0">Jack Peterson</h6>
+                                            </div>
+                                            <div>
+                                                <p class="text-white text-sm opacity-8 mb-0">Expires</p>
+                                                <h6 class="text-white mb-0">11/22</h6>
+                                            </div>
+                                        </div>
+                                        <div class="ms-auto w-20 d-flex align-items-end justify-content-end">
+                                            <img class="w-60 mt-2" src="assets/img/logos/mastercard.png" alt="logo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-12 col-sm-12 mb-4">
                     <div class="card bg-gradient-dark">
-                        <div class="card-body p-3">
+                        <div class="card-body">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="d-flex flex-column h-100">
@@ -211,3 +182,11 @@ $pageid = 1;
             <?php require('include/footer.php');?>
         </div>
         <?php require('include/scripts.php');?>
+        <script>
+            Swal.fire({
+                title: 'Action Success!',
+                text: 'Server successfully created!',
+                icon: 'success',
+                //background: '#000'
+            })
+        </script>
