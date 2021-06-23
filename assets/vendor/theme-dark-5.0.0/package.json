@@ -1,0 +1,23 @@
+{
+  "name": "@sweetalert2/theme-dark",
+  "version": "5.0.0",
+  "repository": "sweetalert2/sweetalert2-themes",
+  "homepage": "https://sweetalert2.github.io/",
+  "description": "Dark theme for SweetAlert2",
+  "author": "Giuseppe Verni (https://github.com/gverni)",
+  "files": [
+    "*.css",
+    "*.scss"
+  ],
+  "main": "dark.css",
+  "keywords": [
+    "sweetalert2",
+    "dark",
+    "theme",
+    "themes",
+    "theming",
+    "sass"
+  ],
+  "bugs": "https://github.com/sweetalert2/sweetalert2-themes/issues",
+  "license": "MIT"
+}
