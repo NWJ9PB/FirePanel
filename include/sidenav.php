@@ -1,15 +1,15 @@
-<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 fixed-left bg-dark-sidenav" id="sidenav-main">
+<aside class="sidenav navbar navbar-vertical navbar-expand-xs fixed-left bg-dark border border-end border-info" id="sidenav-main">
         <div class="sidenav-header">
             <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute right-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-            <a class="navbar-brand m-0 align-content-center" href="dashboard.html">
+            <a class="navbar-brand m-0 align-content-center" href="<?php echo($alink);?>dashboard.html">
                 <span class="h3 ms-1 font-weight-bold text-white">FirePanel</span>
             </a>
         </div>
-        <hr class="horizontal dark mt-0">
+        <hr class="horizontal light mt-0">
         <div class="" id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link <?php if($pageid == 1){echo("active");};?>" href="index.php">
+                    <a class="nav-link <?php if($pageid == 1){echo("active");};?>" href="<?php echo($alink);?>index.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -20,7 +20,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php if($pageid == 2){echo("active");};?>" href="server.php">
+                    <a class="nav-link <?php if($pageid == 2){echo("active");};?>" href="<?php echo($alink);?>server.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -34,7 +34,7 @@
                     <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-6">Account</h6>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="myplan.php">
+                    <a class="nav-link <?php if($pageid == 3){echo("active");};?>" href="<?php echo($alink);?>account/plan.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -45,7 +45,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="profile.php">
+                    <a class="nav-link <?php if($pageid == 4){echo("active");};?>" href="<?php echo($alink);?>account/profile.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -56,7 +56,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="support.php">
+                    <a class="nav-link" href="<?php echo($alink);?>support.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
@@ -70,25 +70,25 @@
                     <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-6">Service Status</h6>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="status/pterodactyl.php">
+                    <a class="nav-link" href="<?php echo($alink);?>status/pterodactyl.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
-                                <i class="fab fa-earlybirds fa-stack-1x fa-inverse"></i>
+                                <i class="fas fa-server fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">Pterodactyl Service Status</span>
+                        <span class="nav-link-text ms-1">GameServer Status</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="status/webserver.php">
+                    <a class="nav-link" href="<?php echo($alink);?>status/webserver.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
-                                <i class="fab fa-earlybirds fa-stack-1x fa-inverse"></i>
+                                <i class="fas fa-server fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">Website Service Status</span>
+                        <span class="nav-link-text ms-1">Wings Status</span>
                     </a>
                 </li>
             </ul>
