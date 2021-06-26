@@ -8,14 +8,14 @@
                                     document.write(new Date().getFullYear())
                                 </script>
                                 <a href="https://www.creative-tim.com" class="font-weight-bold text-gradient text-info" target="_blank">Creative Tim</a>
-                                | Edited by 
-                                <a href="https://github.com/NWJ9PB" class="font-weight-bold" target="_blank"><span class="text-gradient text-warning">NWJ9PB / InterStellar#3423</span> <small class="text-muted">FOR</small> <span class="text-gradient text-danger">NExxT Development</span></a>
+                                <br>Developed by 
+                                <a href="https://github.com/NWJ9PB" class="font-weight-bold" target="_blank"><span class="text-gradient text-warning">NWJ9PB</span> <small class="text-muted">FOR</small> <span class="text-gradient text-info">NExxT Development</span></a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                             <li class="nav-item">
-                                <a href="service-status.php" class="nav-link text-muted" target="_blank">Service Status</a>
+                                <a href="https://discord.com" class="nav-link text-muted" target="_blank">Discord Server</a>
                             </li>
                             <li class="nav-item">
                                 <a href="about.php" class="nav-link text-muted" target="_blank">About Us</a>
