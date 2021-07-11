@@ -13,3 +13,9 @@
         </script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
         <script src="assets/vendor/smooth-scrollbar-8.6.2/smooth-scrollbar.js"></script>
+        <script src="assets/vendor/theme-dark-5.0.0/sweetalert2.all.min.js"></script>
+        <script>
+            if (location.protocol !== 'https:') {
+                location.replace(`https:${location.href.substring(location.protocol.length)}`);
+            }
+        </script>

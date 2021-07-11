@@ -1,4 +1,4 @@
-<aside class="sidenav navbar navbar-vertical navbar-expand-xs fixed-left bg-dark border border-end border-info" id="sidenav-main">
+<aside class="sidenav navbar navbar-vertical navbar-expand-xs fixed-left bg-dark" id="sidenav-main">
         <div class="sidenav-header">
             <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute right-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
             <a class="navbar-brand m-0 align-content-center" href="<?php echo($alink);?>dashboard.html">
@@ -9,50 +9,50 @@
         <div class="" id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link <?php if($pageid == 1){echo("active");};?>" href="<?php echo($alink);?>index.php">
+                    <a class="nav-link <?php if($pageid == 1){echo("active rounded rounded-1");};?>" href="<?php echo($alink);?>index.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
                                 <i class="fas fa-tachometer-alt fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">Dashboard</span>
+                        <span class="ms-1 text-bold">Dashboard</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php if($pageid == 2){echo("active");};?>" href="<?php echo($alink);?>server.php">
+                    <a class="nav-link <?php if($pageid == 2){echo("active rounded rounded-1");};?>" href="<?php echo($alink);?>server.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
                                 <i class="fas fa-server fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">My Servers</span>
+                        <span class="ms-1 text-bold">My Servers</span>
                     </a>
                 </li>
                 <li class="nav-item mt-3">
                     <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-6">Account</h6>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php if($pageid == 3){echo("active");};?>" href="<?php echo($alink);?>account/plan.php">
+                    <a class="nav-link <?php if($pageid == 3){echo("active rounded rounded-1");};?>" href="<?php echo($alink);?>account/plan.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
                                 <i class="fas fa-user-plus fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">My Plan</span>
+                        <span class="ms-1 text-bold">My Plan</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php if($pageid == 4){echo("active");};?>" href="<?php echo($alink);?>account/profile.php">
+                    <a class="nav-link <?php if($pageid == 4){echo("active rounded rounded-1");};?>" href="<?php echo($alink);?>account/profile.php">
                         <div class="shadow-none border-radius-md bg-if text-center me-2 d-flex align-items-center justify-content-center">
                             <span class="fa-stack fa-sm">
                                 <i class="fas fa-square fa-stack-2x"></i>
                                 <i class="fas fa-user-shield fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">My Account</span>
+                        <span class="ms-1 text-bold">My Account</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -63,7 +63,7 @@
                                 <i class="far fa-life-ring fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">Get Support</span>
+                        <span class="ms-1 text-bold">Get Support</span>
                     </a>
                 </li>
                 <li class="nav-item mt-3">
@@ -77,7 +77,7 @@
                                 <i class="fas fa-server fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">GameServer Status</span>
+                        <span class="ms-1 text-bold">GameServer Status</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -88,7 +88,7 @@
                                 <i class="fas fa-server fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
-                        <span class="nav-link-text ms-1">Wings Status</span>
+                        <span class="ms-1 text-bold">Wings Status</span>
                     </a>
                 </li>
             </ul>

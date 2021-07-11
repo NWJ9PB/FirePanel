@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 99fr 1fr;
   padding: 1em;
   overflow-y: hidden;
-  background: #fff;
+  background: rgb(21, 21, 21);
   box-shadow: 0 0 0.625em #d9d9d9;
   pointer-events: all;
 }
@@ -102,7 +102,7 @@
   font-size: 1em;
 }
 .swal2-popup.swal2-toast .swal2-styled:focus {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 3px rgba(100, 150, 200, 0.5);
+  box-shadow: 0 0 0 1px rgb(21, 21, 21), 0 0 0 3px rgba(100, 150, 200, 0.5);
 }
 .swal2-popup.swal2-toast .swal2-success {
   border-color: #a5dc86;
@@ -272,7 +272,7 @@
   padding: 0 0 1.25em;
   border: none;
   border-radius: 5px;
-  background: #fff;
+  background: rgb(21, 21, 21);
   font-family: inherit;
   font-size: 1rem;
 }
@@ -347,7 +347,7 @@
   border-radius: 0.25em;
   background: initial;
   background-color: #7367f0;
-  color: #fff;
+  color: rgb(21, 21, 21);
   font-size: 1em;
 }
 .swal2-styled.swal2-confirm:focus {
@@ -358,7 +358,7 @@
   border-radius: 0.25em;
   background: initial;
   background-color: #ea5455;
-  color: #fff;
+  color: rgb(21, 21, 21);
   font-size: 1em;
 }
 .swal2-styled.swal2-deny:focus {
@@ -369,7 +369,7 @@
   border-radius: 0.25em;
   background: initial;
   background-color: #6e7d88;
-  color: #fff;
+  color: rgb(21, 21, 21);
   font-size: 1em;
 }
 .swal2-styled.swal2-cancel:focus {
@@ -515,7 +515,7 @@
 
 .swal2-range {
   margin: 1em 2em 0;
-  background: #fff;
+  background: rgb(21, 21, 21);
 }
 .swal2-range input {
   width: 80%;
@@ -568,7 +568,7 @@
 .swal2-checkbox {
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: rgb(21, 21, 21);
   color: inherit;
 }
 .swal2-radio label,
@@ -608,7 +608,7 @@
   margin: 0 0.625em;
   border-radius: 50%;
   background-color: #f27474;
-  color: #fff;
+  color: rgb(21, 21, 21);
   font-weight: 600;
   line-height: 1.5em;
   text-align: center;
@@ -780,7 +780,7 @@
   height: 2em;
   border-radius: 2em;
   background: #2778c4;
-  color: #fff;
+  color: rgb(21, 21, 21);
   line-height: 2em;
   text-align: center;
 }
@@ -789,7 +789,7 @@
 }
 .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step {
   background: #add8e6;
-  color: #fff;
+  color: rgb(21, 21, 21);
 }
 .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step-line {
   background: #add8e6;

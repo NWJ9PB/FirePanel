@@ -20,7 +20,7 @@
     <link href="<?php echo($alink);?>assets/css/nucleo-svg.css" rel="stylesheet" />
     <link href="<?php echo($alink);?>assets/vendor/fontawesome/css/all.css" rel="stylesheet" />
     <link href="<?php echo($alink);?>assets/css/nucleo-svg.css" rel="stylesheet" />
-    <link href="<?php echo($alink);?>assets/css/soft-ui-dashboard.css?v=1.0.1" id="pagestyle" rel="stylesheet" />
+    <link href="<?php echo($alink);?>assets/css/soft-ui-dashboard.css" id="pagestyle" rel="stylesheet" />
     <link href="<?php echo($alink);?>assets/vendor/theme-dark-5.0.0/sweetalert2.css" rel="stylesheet"></link>
     <style>
     /* width */
